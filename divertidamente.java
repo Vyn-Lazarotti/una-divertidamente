@@ -11,9 +11,9 @@ public class divertidamente {
         if (amizade == true){
             System.out.println("Quantas amizades a Riley fez na nova cidade? ");
             int amizades = teclado.nextInt();
-            alegria = + 10 * amizades;
+            alegria += 10 * amizades;
         } else {
-            tristeza = + 30;
+            tristeza += 30;
         }
         
         
@@ -26,9 +26,9 @@ public class divertidamente {
         int terceiraNota = teclado.nextInt();
         int media = (primeiraNota + segundaNota + terceiraNota / 3);
         if (media >= 7) {
-            alegria = + 50;
+            alegria += 50;
         } else {
-            tristeza = + 50;
+            tristeza += 50;
         }
 
         System.out.println("Riley está estudando programação! E ela tem 10 algoritmos para fazer.");
@@ -36,9 +36,9 @@ public class divertidamente {
         int algoritmos = teclado.nextInt();
         if (algoritmos > 1) {
             //
-            alegria = + 10 * algoritmos;
+            alegria += 10 * algoritmos;
         } else {
-            tristeza = + 10 * algoritmos;
+            tristeza += 10 * algoritmos;
         }
 
         if (alegria > tristeza) {
