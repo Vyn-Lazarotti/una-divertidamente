@@ -34,11 +34,10 @@ public class divertidamente {
         System.out.println("Riley está estudando programação! E ela tem 10 algoritmos para fazer.");
         System.out.println("Quantos algoritmos ela conseguiu resolver? ");
         int algoritmos = teclado.nextInt();
-        if (algoritmos > 1) {
-            //
-            alegria += 10 * algoritmos;
+        if (algoritmos == 0) {
+            tristeza += 100;
         } else {
-            tristeza += 10 * algoritmos;
+            alegria += 10 * algoritmos;
         }
 
         if (alegria > tristeza) {
