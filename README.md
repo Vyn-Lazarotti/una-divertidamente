@@ -18,4 +18,4 @@ O algoritmo informa que:
   Pergunte a Riley quantos exercícios ela conseguiu fazer.<br>
   Para cada exercício realizado soma-se 10 pontos para a Alegria e para cada não realizado 10 pontos para a Tristeza.
 
-Agora, compare qual emoção possui mais pontos.
+Agora, compare qual emoção possui mais pontos!
