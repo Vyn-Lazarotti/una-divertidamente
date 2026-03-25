@@ -42,6 +42,7 @@ public class divertidamente {
             tristeza += ((10 - algoritmos) * 10);
         }
 
+        //Resultado
         if (alegria > tristeza) {
             System.out.println("A mudança para a nova cidade foi uma experiência incrível para a Riley.");
         } else {
