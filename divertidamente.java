@@ -9,7 +9,7 @@ public class divertidamente {
         System.out.println("A Riley mudou de cidade. Ela fez novas amizades (true/false)? ");
         boolean amizade = teclado.nextBoolean();
         if (amizade == true){
-            System.out.println("Quantas amizades a Riley fez na nova cidade? ");
+            System.out.print("Quantas amizades a Riley fez na nova cidade? ");
             int amizades = teclado.nextInt();
             alegria += (10 * amizades);
         } else {
@@ -18,11 +18,11 @@ public class divertidamente {
         
         //Questão sobre as notas de provas
         System.out.println("Riley fez 3 provas");
-        System.out.println("Informe a nota da primeira prova (0 a 10): ");
+        System.out.print("Informe a nota da primeira prova (0 a 10): ");
         int notaA1 = teclado.nextInt();
-        System.out.println("Informe a nota da segunda prova (0 a 10): ");
+        System.out.print("Informe a nota da segunda prova (0 a 10): ");
         int notaA2 = teclado.nextInt();
-        System.out.println("Informe a nota da terceira prova (0 a 10): ");
+        System.out.print("Informe a nota da terceira prova (0 a 10): ");
         int notaA3 = teclado.nextInt();
         int media = (notaA1 + notaA2 + notaA3 / 3);
         if (media >= 7) {
@@ -33,7 +33,7 @@ public class divertidamente {
 
         //Questão sobre os exercícios de programação
         System.out.println("Riley está estudando programação! E ela tem 10 algoritmos para fazer.");
-        System.out.println("Quantos algoritmos ela conseguiu resolver? ");
+        System.out.print("Quantos algoritmos ela conseguiu resolver? ");
         int algoritmos = teclado.nextInt();
         if (algoritmos == 0) {
             tristeza += 100;
